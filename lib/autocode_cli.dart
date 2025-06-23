@@ -1,5 +1,14 @@
 import 'package:args/args.dart';
 
+// export 'analyzer/cli/ac_tree_sitter_cli.dart';
+// export 'analyzer/core/ac_analyzer.dart';
+// export 'analyzer/models/ac_code_entity_class.model.dart';
+// export 'analyzer/models/ac_code_entity_interface.model.dart';
+
+export 'utils/ac_cli_directory_utils.dart';
+export 'utils/ac_cli_file_utils.dart.';
+
+
 void main(List<String> arguments) {
   final parser = ArgParser();
 

@@ -10,6 +10,12 @@ environment:
 dependencies:
   args: ^2.7.0
   path: ^1.9.1
+  ac_blueprints:
+    path: ../autocode-dart/packages/ac-blueprints
+  ac_extensions:
+    path: ../autocode-dart/packages/ac-extensions
+  autocode:
+    path: ../autocode-dart/packages/autocode
 
 dev_dependencies:
   lints: ^5.1.1
