@@ -14,7 +14,7 @@ class AcCliDirectoryUtils{
     for(var entity in entities){
       if(entity.isDirectory){
         String currentPath = entity.path.replaceAll("\\", "/");
-        String newPath = "${entity.parent.path}/${entity.getName(includeExtension: false).toKebabCase()}".replaceAll("\\", "/");
+        String newPath = "${entity.parent.path}/${entity.entityName(includeExtension: false).toKebabCase()}".replaceAll("\\", "/");
         print("Renaming directory $currentPath to $newPath...");
         entity.renameSync(newPath);
         print("Renamed directory $currentPath to $newPath");
@@ -28,7 +28,7 @@ class AcCliDirectoryUtils{
     for(var entity in entities){
       if(entity.isFile){
         String currentPath = entity.path.replaceAll("\\", "/");
-        String newPath = "${entity.parent.path}/${entity.getName(includeExtension: false).toKebabCase()}.${entity.getExtension()}".replaceAll("\\", "/");
+        String newPath = "${entity.parent.path}/${entity.entityName(includeExtension: false).toKebabCase()}.${entity.extension}".replaceAll("\\", "/");
         print("Renaming file $currentPath to $newPath...");
         entity.renameSync(newPath);
         print("Renamed file $currentPath to $newPath");

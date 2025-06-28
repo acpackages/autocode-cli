@@ -11,9 +11,11 @@ dependencies:
   args: ^2.7.0
   path: ^1.9.1
   ac_blueprints:
-    path: ../autocode-dart/packages/ac-blueprints
+    path: ../autocode-dart/packages/ac_blueprints
+  ac_documentation:
+    path: ../autocode-dart/packages/ac_documentation
   ac_extensions:
-    path: ../autocode-dart/packages/ac-extensions
+    path: ../autocode-dart/packages/ac_extensions
   autocode:
     path: ../autocode-dart/packages/autocode
 

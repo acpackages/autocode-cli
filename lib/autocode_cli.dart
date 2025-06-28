@@ -5,6 +5,8 @@ import 'package:args/args.dart';
 // export 'analyzer/models/ac_code_entity_class.model.dart';
 // export 'analyzer/models/ac_code_entity_interface.model.dart';
 
+export 'documentation/acl_cli_documentation_generator.dart';
+
 export 'utils/ac_cli_directory_utils.dart';
 export 'utils/ac_cli_file_utils.dart.';
 
